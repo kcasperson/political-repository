@@ -1,6 +1,4 @@
-body {
-    background-color: white;
-}
+
 
 h1 {
     color: black;
@@ -60,21 +58,10 @@ nav li a:hover:not(.currentTab) {
     background-color: #9F9F9F;
 }
 
-.portfolio{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    justify-content: space-around;
-}
-
-img.img_item{
-    image-orientation: from-image;
-    width: 200px;
-    height: 200px;
-}
 
 form {
   margin: 0 auto;
-  width: 400px;
+  width: 420px;
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 1em;
@@ -126,20 +113,5 @@ button {
   /* This extra margin represent roughly the same space as the space
      between the labels and their text fields */
   size: 25px;
-}
-
-section {
- display: flex;
-}
-
-aside {
- flex: 1
-}
-
-article {
- flex: 4
-}
-
-div.homePic {
-  text-align: center;
+  margin-left: 360px;
 }
